@@ -1,0 +1,10 @@
+{
+  "name": "creepy-octo-garbanzo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/zeromars/creepy-octo-garbanzo",
+  "authors": [
+    "Landon Lung <llung@lynda.com>"
+  ],
+  "license": "MIT",
+  "private": true
+}
