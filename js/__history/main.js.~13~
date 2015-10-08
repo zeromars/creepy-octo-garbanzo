@@ -25,5 +25,5 @@ require(['template'], function (template) {
 	template.showRealName("Sparrow");
 });
 require(['template'], function (template) {
-	console.log(template.mod);
+	template.mod();
 });

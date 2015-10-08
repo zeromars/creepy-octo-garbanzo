@@ -1,7 +1,7 @@
 define(['underscore', 'jQuery'], function() {
 	var showName = function(n) {
-  		var temp = _.template("Hello <%= name %>");
-  		$("body").html(temp({name: n}));
+  		var temp = _.template("<p>Hello <%= name %></p>");
+  		$("body").append(temp({name: n}));
 	};
 	return {
   		showName: showName

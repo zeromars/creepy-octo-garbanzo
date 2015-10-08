@@ -9,7 +9,7 @@ define(['path/to/module2', 'underscore', 'jQuery'], function(module2ref) {
   		$("body").append(temp({name: n}));
 	};
 	return {
-		mod: module2.getModule1Name(),
+		mod: module2,
 		showRealName: showRealName,
   		showName: showName
 	};
