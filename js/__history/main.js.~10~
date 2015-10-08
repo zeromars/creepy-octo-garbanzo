@@ -21,6 +21,3 @@ require(['module1', 'path/to/module2', 'jQuery', 'underscore', 'template'], func
     console.log('jQuery version:', $.fn.jquery); // 1.9.0
 	template.showName("Jack");
 });
-require(['template'], function (template) {
-	template.showName("Sparrow");
-});
