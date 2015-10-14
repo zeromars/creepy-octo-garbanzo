@@ -27,3 +27,22 @@ require(['template'], function (template) {
 require(['template'], function (template) {
 	console.log(template.mod);
 });
+/*
+requirejs
+typescript
+history.js
+hammer.js
+underscore
+
+flexbox
+bourbon
+
+casperjs
+phantomcss
+phantomjs
+istanbul
+
+mocha
+chai
+sinon
+*/

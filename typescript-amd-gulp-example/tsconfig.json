@@ -1,0 +1,22 @@
+{
+    "version": "1.4.1",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./app/A.ts",
+        "./app/main.ts",
+        "./lib/JQuery.ts",
+        "./typings/jquery/jquery.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
